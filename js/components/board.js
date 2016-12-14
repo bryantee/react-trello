@@ -6,9 +6,10 @@ class Board extends React.Component {
   render () {
     return (
       <div className="board">
-        <List />
-        <List />
-        <List />
+        <h1>{this.props.title}</h1>
+        <List title="ToDo"/>
+        <List title="Current"/>
+        <List title="Done"/>
       </div>
     )
 

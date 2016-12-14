@@ -6,5 +6,5 @@ import List from './components/list';
 import Board from './components/board';
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(<Board />, document.getElementById('app'));
+  ReactDOM.render(<Board title="This board's title" />, document.getElementById('app'));
 });;
