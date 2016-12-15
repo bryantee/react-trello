@@ -6,5 +6,6 @@ import List from './components/list';
 import Board from './components/board';
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(<Board title="This board's title" />, document.getElementById('app'));
+  const titleArr = ['List Title 1', 'List Title 2'];
+  ReactDOM.render(<Board title="This board's title" lists={titleArr} />, document.getElementById('app'));
 });;
